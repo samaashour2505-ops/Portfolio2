@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Sama Ashour, Software Engineering Student">
+  <title>Sama Ashour | Software Engineering Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<!-- NAVBAR: add or remove <li> items here. Each href must match a section id below. -->
+<header class="navbar" id="navbar">
+  <nav class="container nav-inner" aria-label="Main navigation">
+    <a href="#home" class="logo">Sama<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<!-- HOME / HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="hello">Hi, I'm</p>
+      <h1>Sama Ashour</h1>
+      <h2 class="typing-line"><span id="typing"></span><span class="cursor">|</span></h2>
+      <p class="lead">I build clean, responsive, and user-friendly web applications. I enjoy turning ideas into practical digital solutions and continuously improving my skills through real-world projects and hands-on experience.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+      </div>
+      <!-- SOCIAL LINKS: replace each "#" style placeholder URL with your own profile link -->
+      <ul class="socials" aria-label="Social media">
+         <a href="https://www.facebook.com/share/1Do188UB8j/" target="_blank" aria-label="Facebook" class="social-link">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+              <a href="https://www.linkedin.com/in/sama-ashour-b0a87b38b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn" class="social-link">
+        <i class="fab fa-linkedin-in"></i></a>
+              
+        <a href="mailto:samaashour2505@gmail.com" aria-label="Email" class="social-link">
+        <i class="fas fa-envelope"></i>
+      </a>
+              <a href="https://github.com/samaashour2505-ops" class="github-icon" target="_blank">
+    <i class="fa-brands fa-github"></i>
+</a>
+      
+      </ul>
+    </div>
+    <div class="hero-photo">
+      <!-- PROFILE PHOTO: replace the file images/profile.jpg with your own photo (keep the same file name).
+           A square or portrait photo works best. The design adjusts automatically. -->
+      <img src="images/5900196986739167188.jpg" alt="Sama Ashour">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container narrow reveal">
+    <h2 class="section-title">About Me</h2>
+    <p>I’m Sama Ashour, a Software Engineering student focused on building responsive, user-centered web applications and developing practical software solutions. I’m continuously improving my skills through hands-on projects while exploring the intersection of Software Engineering and AI.
+
+I’m passionate about Software Engineering, Web Development, and Artificial Intelligence, with a growing interest in AI Agents and intelligent applications that can automate tasks and solve real-world problems.
+I bring problem-solving, creativity, teamwork, adaptability, and continuous learning to every project I work on. I focus on writing clean code and creating solutions that are both functional and user-friendly.
+I don’t just focus on how an application looks — I focus on how it works, who it helps, and how it can be improved. I combine a problem-solving mindset with my interest in AI and emerging technologies to turn ideas into meaningful digital experiences.</p>
+    <p>Outside of coursework, I build personal projects, learn new tools, and practice designing interfaces that are simple and easy to use. I am looking for internships and entry-level opportunities where I can learn from a team and contribute.</p>
+    <ul class="facts">
+      <li><strong>Location</strong> Egypt</li>
+      <li><strong>Focus</strong>Front_End React</li>
+      <li><strong>Status</strong> Open to internships</li>
+    </ul>
+  </div>
+</section>
+
+<!-- EDUCATION: copy an <article class="timeline-item"> to add more entries -->
+<section class="section alt" id="education">
+  <div class="container narrow">
+    <h2 class="section-title reveal">Education</h2>
+    <div class="timeline">
+      <article class="timeline-item reveal">
+        <span class="time">2025 - Present</span>
+        <h3>Computer and Information</h3>
+        <p class="muted">Tanta University, Egypt</p>
+        <p>Coursework in data structures, algorithms, databases, object-oriented programming, and software design.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS: copy a <div class="skill-card"> to add a skill. Change data-level (0-100) to set the bar. -->
+<section class="section" id="skills">
+  <div class="container">
+    <h2 class="section-title reveal">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal" data-level="90"><span class="badge">HT</span><h3>HTML</h3><div class="bar"><i></i></div></div>
+      <div class="skill-card reveal" data-level="85"><span class="badge">CS</span><h3>CSS</h3><div class="bar"><i></i></div></div>
+      <div class="skill-card reveal" data-level="80"><span class="badge">JS</span><h3>JavaScript</h3><div class="bar"><i></i></div></div>
+      <div class="skill-card reveal" data-level="65"><span class="badge">Re</span><h3>React</h3><div class="bar"><i></i></div></div>
+      <div class="skill-card reveal" data-level="80"><span class="badge">Gi</span><h3>Git &amp; GitHub</h3><div class="bar"><i></i></div></div>
+      <div class="skill-card reveal" data-level="85"><span class="badge">Rw</span><h3>Responsive Web Design</h3><div class="bar"><i></i></div></div>
+      <div class="skill-card reveal" data-level="60"><span class="badge">UX</span><h3>UI/UX Basics</h3><div class="bar"><i></i></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS: copy a whole <article class="card project-card"> to add a project -->
+<section class="section alt" id="projects">
+  <div class="container">
+    <h2 class="section-title reveal">Projects</h2>
+    <div class="cards">
+      <article class="card project-card reveal">
+        <img src="images/Screenshot_28-8-2026_121440_localhost.jpeg" alt="Project 1 preview" loading="lazy">
+        <div class="card-body">
+          <h3>E-Commerce Marketplace</h3>
+          <p>A full-stack e-commerce project developed during the Web Development .NET Training at ITI. Built with a focus on responsive design, product management, filtering, search, and shopping cart functionality.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li><li>SQL Server</li></ul>
+          <div class="card-actions"><a class="btn btn-primary btn-sm" href="https://example.com" target="_blank" rel="noopener">View Project</a><a class="btn btn-outline btn-sm" href="https://github.com/Mohamedhazem012/ECommerce-Marketplace-final" target="_blank" rel="noopener">GitHub</a></div>
+        </div>
+      </article>
+      <article class="card project-card reveal">
+        <img src="images/WhatsApp Image 2026-09-26 at 5.19.55 PM.jpeg" alt="Project 2 preview" loading="lazy">
+        <div class="card-body">
+          <h3>NOIRE</h3>
+          <p>A modern makeup website with a bold, elegant dark design, featuring responsive layouts, smooth animations, and an engaging user experience.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="card-actions"><a class="btn btn-primary btn-sm" href="https://samaashour2505-ops.github.io/NORIE/" target="_blank" rel="noopener">View Project</a><a class="btn btn-outline btn-sm" href="https://github.com/samaashour2505-ops/NORIE.git" target="_blank" rel="noopener">GitHub</a></div>
+        </div>
+      </article>
+      <article class="card project-card reveal">
+        <img src="images/Screenshot_28-8-2026_1211_.jpeg" alt="Project 3 preview" loading="lazy">
+        <div class="card-body">
+          <h3>Bakery Website</h3>
+          <p>A responsive bakery website developed as a practical task during the DEPI program.focusing on clean UI design, structured layouts, and responsive web development.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+          <div class="card-actions"><a class="btn btn-primary btn-sm" href="https://samaashour2505-ops.github.io/Bakery/" target="_blank" rel="noopener">View Project</a><a class="btn btn-outline btn-sm" href="https://github.com/samaashour2505-ops/Bakery.git" target="_blank" rel="noopener">GitHub</a></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES: copy a whole <article class="card cert-card"> to add one, delete one to remove it -->
+<section class="section" id="certificates">
+  <div class="container">
+    <h2 class="section-title reveal">Certificates</h2>
+    <div class="cards">
+      <article class="card cert-card reveal">
+        <img src="images/5818816002249134246.jpg" alt="Certificate 1" loading="lazy">
+        <div class="card-body">
+          <h3>Python Fundamentals</h3>
+          <p class="muted">Mahara Tech</p>
+          <p class="date">Completed a certificate in Python Fundamentals, covering the core concepts and basics of Python programming.</p>
+          <a class="btn btn-outline btn-sm" href="images/5818816002249134246.jpg" target="_blank" rel="noopener">View Certificate</a>
+        </div>
+      </article>
+      <article class="card cert-card reveal">
+        <img src="images/5818816002249134250.jpg" alt="Certificate 2" loading="lazy">
+        <div class="card-body">
+          <h3>Freelancing Fundamentals</h3>
+          <p class="muted">Mahara Tech</p>
+          <p class="date">Completed a certificate in Freelancing Fundamentals, covering the essential skills and practices needed to work effectively as a freelancer.</p>
+          <a class="btn btn-outline btn-sm" href="images/5818816002249134250.jpg" target="_blank" rel="noopener">View Certificate</a>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section alt" id="services">
+  <div class="container">
+    <h2 class="section-title reveal">Services</h2>
+    <div class="cards">
+      <article class="card service-card reveal"><div class="card-body"><h3>Website Development</h3><p>Fast, responsive websites built with clean HTML, CSS, and JavaScript.</p></div></article>
+      <article class="card service-card reveal"><div class="card-body"><h3>Web Applications</h3><p>Interactive apps using React or .NET, from idea to working product.</p></div></article>
+      <article class="card service-card reveal"><div class="card-body"><h3>UI Implementation</h3><p>Turning design mockups into accurate, accessible, mobile-friendly pages.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container narrow reveal">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Have a project, an internship, or a question? Send me a message and I will reply as soon as I can.</p>
+    <!-- The form opens the visitor's email app with the message filled in. Change the address in script.js (EMAIL). -->
+    <form class="contact-form" id="contactForm">
+      <label>Name<input type="text" id="cName" required autocomplete="name"></label>
+      <label>Email<input type="email" id="cEmail" required autocomplete="email"></label>
+      <label>Message<textarea id="cMsg" rows="5" required></textarea></label>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Sama Ashour. All rights reserved.</p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+<script src="script.js"></script>
+</body>
+</html>
